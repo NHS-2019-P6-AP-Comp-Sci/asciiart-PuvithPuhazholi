@@ -95,6 +95,7 @@ public class ASCIIArt {
 		System.out.println();
 		System.out.println();
 		System.out.println();
+		System.out.println("                                         BLAST OFF!!!!");
 		System.out.println();
 		System.out.println();
 		System.out.println();
