@@ -15,13 +15,90 @@
  */
 
 // YOU CODE HERE :) 
-
 public class ASCIIArt {
+	public static void earth() {
+		System.out.println("                                         * * * * * *");
+		System.out.println("                                    * * ***    ****** * *");
+		System.out.println("                                * * ******      ********* * *");
+		System.out.println("                            * * ********         *****     * * *");
+		System.out.println("                          * *      *****                        * *");
+		System.out.println("                        * *        ******                    ****** *");
+		System.out.println("                      * **          *****     ****          ********* *");
+		System.out.println("                      *****          ***     ****          ********   *");
+		System.out.println("                     *********               ******       ******       *");
+		System.out.println("                    ***********             *********      ****         *");
+	}
+	public static void rocketmiddle() {
+		System.out.println("                                   |                    |");
+		System.out.println("                                   |        ____        |");
+		System.out.println("                                   |       /    \\       |");
+		System.out.println("                                   |      /      \\      |"); 
+		System.out.println("                                   |      \\      /      |");
+		System.out.println("                                   |       \\____/       |");
+		System.out.println("                                   |                    |");
+		System.out.println("                                   |                    |");
+	}
+	public static void rockettop() {
+		System.out.println("                                             /\\");
+		System.out.println("                                            /||\\");
+		System.out.println("                                           /|**|\\");
+		System.out.println("                                          /| || |\\");
+		System.out.println("                                         /|  ||  |\\");
+		System.out.println("                                        /|   \\/   |\\");
+		System.out.println("                                       /| Mission: |\\");
+		System.out.println("                                      /|  AP CS P6  |\\");
+		System.out.println("                                     /|  ASCII  ART  |\\");
+		System.out.println("                                    /|++++++++++++++++|\\");
+		System.out.println("                                   /____________________\\");
+	}
+	public static void rocketconnector() {
+		System.out.println("                                   ======================");
+		System.out.println("                                   IIIIIIIIIIIIIIIIIIIIII");
+		System.out.println("                                   ======================");
+	}
+	public static void rocketbottom() {
+		System.out.println("                                   |--------------------|");
+		System.out.println("                                   /                    \\");
+		System.out.println("                                  /                      \\");
+		System.out.println("                                 /                        \\");
+		System.out.println("                                /          ______          \\");
+		System.out.println("                               |          |      |          |");
+		System.out.println("                               |          |      |          |");
+		System.out.println("                               |          |      |          |");
+		System.out.println("                               |          |      |          | ");
+		System.out.println("                               /          |      |          \\");
+		System.out.println("                              /__________/        \\__________\\");
+		System.out.println("                              **********/          \\**********");
+		System.out.println("                             **********/            \\**********");
+		System.out.println("                            **********/              \\**********");
+		System.out.println("                            *********/________________\\*********");
+		System.out.println("                             ******** ***************** ********");
+		System.out.println("                              ******  *****************  ******");
+		System.out.println("                               ****    ***************    ****");
+		System.out.println("                                **      *************      **");
+		System.out.println("                                         ***********");
+		System.out.println("                                          *********");
+		System.out.println("                                           *******");
+		System.out.println("                                            *****");
+		System.out.println("                                             ***");
+		System.out.println("                                              * ");		
+	}
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		rockettop();
+		rocketconnector();
+		rocketmiddle();
+		rocketconnector();
+		rocketmiddle();
+		rocketconnector();
+		rocketbottom();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		earth();
 	}
 }
